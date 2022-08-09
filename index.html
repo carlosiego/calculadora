@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <main>
+    <main id="principal">
         <div id="calculadora">
             <div id="res"></div>
             <table>
@@ -36,6 +36,10 @@
                     <td><button class="botao" onclick="calcular()">=</button></td>
                 </tr>
             </table>
+        </div>
+        <div id="cores">
+            <div id="dia" class="md" onclick="color('linear-gradient(to bottom, #9EC1A3, #CFE0C3)')"></div>
+            <div id="noite" class="md" onclick="color('linear-gradient(to bottom, #000000, #000011)')"></div>
         </div>
     </main>
     <script src="script.js"></script>

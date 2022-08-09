@@ -13,3 +13,8 @@ function calcular(){
         document.getElementById('res').innerHTML = eval(resultado)
     }
 }
+
+function color(cor){
+    var backg = document.getElementById('principal')
+    backg.style.backgroundImage = `${cor}`
+}
