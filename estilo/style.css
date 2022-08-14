@@ -51,7 +51,7 @@ div#calculadora {
     background-color: #1C1C1C;
 }
 
-div#res {
+div#caixap {
     border: 1px solid white;
     border-radius: 5px;
     background-color: black;
@@ -60,7 +60,23 @@ div#res {
     margin-bottom: -40px;
     color: #ffffff;
     display: flex;
+    flex-direction: column;
+}
+
+div.caixasmini{
+    width: 350px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+    align-self: flex-end ;
+    display: flex;
     justify-content: right;
+
+}
+
+div#prev{
+    margin-top: 23px;
+    color: rgba(255, 255, 255, 0.377);
 }
 
 table {
@@ -92,7 +108,7 @@ table {
         height: 450px;
     }
 
-    div#res{
+    div#caixap{
         width: 295px
     }
 
@@ -110,4 +126,8 @@ table {
     #limpar {
         font-size: 18px;
     }
+    .caixasmini{
+        font-size: 1.1rem;
+    }
 }
+

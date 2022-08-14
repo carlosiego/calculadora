@@ -10,7 +10,10 @@
 <body>
     <main id="principal">
         <div id="calculadora">
-            <div id="res"></div>
+            <div id="caixap">
+                <div id="res" class="caixasmini"></div>
+                <div id="prev" class="caixasmini"></div>
+            </div>
             <table>
                 <tr>
                     <td><button class="botao" onclick="entrada('1')">1</button></td>
@@ -32,7 +35,7 @@
                 </tr>
                 <tr>
                     <td colspan="2"><button class="botao" id="zero" onclick="entrada('0')">0</button></td>
-                    <td><button class="botao" onclick="limpar()" id="limpar">limpar</button></td>
+                    <td><button class="botao" onclick="limpar()" id="limpar">CE</button></td>
                     <td><button class="botao" onclick="calcular()">=</button></td>
                 </tr>
             </table>
