@@ -16,33 +16,29 @@
             </div>
             <table>
                 <tr>
-                    <td><button class="botao" onclick="entrada('1')">1</button></td>
-                    <td><button class="botao" onclick="entrada('2')">2</button></td>
-                    <td><button class="botao" onclick="entrada('3')">3</button></td>
-                    <td><button class="botao" id="soma" onclick="entrada('+')">+</button></td>
+                    <td><button class="botao" value="1">1</button></td>
+                    <td><button class="botao" value="2">2</button></td>
+                    <td><button class="botao" value="3">3</button></td>
+                    <td><button class="botao" id="soma" value="+">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botao" onclick="entrada('4')">4</button></td>
-                    <td><button class="botao" onclick="entrada('5')">5</button></td>
-                    <td><button class="botao" onclick="entrada('6')">6</button></td>
-                    <td><button class="botao" id="subtracao" onclick="entrada('-')">-</button></td>
+                    <td><button class="botao" value="4">4</button></td>
+                    <td><button class="botao" value="5">5</button></td>
+                    <td><button class="botao" value="6">6</button></td>
+                    <td><button class="botao" id="subtracao" value="-">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botao" onclick="entrada('7')">7</button></td>
-                    <td><button class="botao" onclick="entrada('8')">8</button></td>
-                    <td><button class="botao" onclick="entrada('9')">9</button></td>
-                    <td><button class="botao" id="multiplicao" onclick="entrada('*')">x</button></td>
+                    <td><button class="botao" value="7">7</button></td>
+                    <td><button class="botao" value="8">8</button></td>
+                    <td><button class="botao" value="9">9</button></td>
+                    <td><button class="botao" id="multiplicao" value="*">x</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button class="botao" id="zero" onclick="entrada('0')">0</button></td>
-                    <td><button class="botao" onclick="limpar()" id="limpar">CE</button></td>
-                    <td><button class="botao" onclick="calcular()">=</button></td>
+                    <td colspan="2"><button class="botao" id="zero" value="0">0</button></td>
+                    <td><button class="botao" id="limpar" value="CE">CE</button></td>
+                    <td><button class="botao" value="=">=</button></td>
                 </tr>
             </table>
-        </div>
-        <div id="cores">
-            <div id="dia" class="md" onclick="color('linear-gradient(to bottom, #9EC1A3, #CFE0C3)')"></div>
-            <div id="noite" class="md" onclick="color('linear-gradient(to bottom, #000000, #000011)')"></div>
         </div>
     </main>
     <script src="script.js"></script>
